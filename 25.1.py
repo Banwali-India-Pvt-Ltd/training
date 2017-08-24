@@ -1,0 +1,5 @@
+print type(4)
+print type('4')
+print type(4 + 7)
+print type('4' + '7')
+print type(int('3') + int(4))

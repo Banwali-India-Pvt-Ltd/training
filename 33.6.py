@@ -1,0 +1,4 @@
+print ('A\aB\nC')
+print ('D\tE\tF')
+print ('WX\bYZ')
+print ('1a1\a2\a3\a4\a5\a6')
