@@ -1,0 +1,11 @@
+# Chapter -7 Using Functions
+
+# Count to ten and print each number on its own line
+def count_to_10():
+    for i in range(1, 11, ):
+        print(i)
+
+print("Going to count to ten . . . " )
+count_to_10()             # Call the functions
+print("Going to count to ten again. . ." )
+count_to_10()            # Call the functions again
