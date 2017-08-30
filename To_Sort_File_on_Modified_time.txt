@@ -1,0 +1,29 @@
+command to sort file in a directory on the basis of modified time on linux
+Example:
+
+/data/input/entries which has following directory structure inside.
+
+/data/input/entries
+|
+|__ abc/
+|        |
+|        |__f2.txt
+|
+|__ xyz/foo/
+|         |
+|         |__ f4.txt
+|
+|__ f5.txt
+
+Example output:-
+
+/data/input/entries/xyz/foo/f4.txt
+/data/input/entries/f5.txt
+/data/input/entries/abc/f2.txt
+
+
+Steps to be executed:
+
+1. chnage present working directory to /data/input/entries
+
+2. command: find $PWD -type f -printf "%T+ %p\n" | sort -r
