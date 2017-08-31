@@ -1,0 +1,56 @@
+Ques: 1. create a .bashrc file for your userid which does following things:-
+        a. Create aliases:-
+          i. If you type 'hm' on the command line it should  take you to home directory
+          ii. If you type 'sayit' on the command line it  should print "I am Banwali and I love coding"
+
+Solution: Steps to be followed:
+          1. open vim ~/.bashrc
+          2. With the help of G go to the end of file and write the following command:
+             #aliasing
+             alias hm='cd'
+             alias sayit='echo "I am Banwali and I love coding"'
+
+Ques2: Create a .vimrc for your userid to configure vim editor as follows:-
+       a. when you open a file it should show line numbers by default
+       b. set size of tab to 4 spaces
+      
+Solution :  to create a file use vim command.
+            Step 1: vim ~/.vimrc
+            Step 2:Write the following command in ~/.vimrc
+                   set number
+                   set tabstop=4
+
+
+Ques 3:  write one line command in Linux to do following:-
+     a. Generate histogram for a given file with numbers
+
+     Example input:-
+	12
+	8
+	100
+	8
+	7
+	12
+	12
+
+	Example output:-
+	12    3
+	8   1
+	100   1
+	7   1
+
+	You have to read about pipes and sort for this. Linux is very powerful when it comes to writing one liner command, they can sometimes accomplish more than 	100 lines of code in other languages
+
+     b. Search and replace string 'London' with 'Jaipur' in all the files in a given directory
+	
+	Example input:-
+	A directory 'foo' with files a.txt b.txt f.txt and there can be more files, you have to replace all occupancies of string 'London' in these files with 		'Jaipur' for all the files and have to write a single line command
+
+
+Solution a:let the file be input.txt than command will be:
+           sort -n input.txt|uniq -c|awk '{print $2,$1}'
+
+Solution b:to replace all the file of the directory first we have to change the path to the directory than write the following command:
+           find ./ -type f -exec sed -i -e 's/London/Jaipur/g' {} \; 
+            
+
