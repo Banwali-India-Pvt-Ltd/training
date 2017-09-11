@@ -1,0 +1,20 @@
+# This program is not working and showing an error on line no.4 and 7
+#TypeError: super() argument 1 must be type, not classobj
+from countingstopwatch import CountingStopwatch
+from time import sleep
+
+timer = CountingStopwatch()
+timer.start()
+sleep(10)    # Pause program for 10 seconds
+timer.stop()
+print("Time:", timer.elapsed(), "  Number:", timer.count())
+
+timer.start()
+sleep(5)     # Pause program for 5 seconds
+timer.stop()
+print("Time:", timer.elapsed(), "  Number:", timer.count())
+
+timer.start()
+sleep(20)    # Pause program for 20 seconds
+timer.stop()
+print("Time:", timer.elapsed(), "  Number:", timer.count())
