@@ -1,13 +1,5 @@
-#dictionary
-p = { 'apple': 2, 'orange': 4, 'banana': 5, 'grapes': 6}
-#p is a dictinary of froit-quantity pairs
-print p['apple']
-print p['orange']
-print p['banana']
-print p['grapes']
-#apple is key and 2is value
-
-
-
-
-
+print type(4)   # it is int type value so it will print int
+print type('4')  # it is str type value so it will print str type
+print type (4+7)  # it is int type so prints int type
+print type ('4' + '7') # it is str type so prints str type
+print type(int('3') + int(4)) # it is int type so prints int type

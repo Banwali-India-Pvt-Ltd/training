@@ -1,13 +1,7 @@
-#function
-def add(a, b):#a and parameters to the funtion add
-    return a + b
+# prints all types statements str, data types, int types
 
-def subtract(a, b):
-    return a - b
+print('Our good friend print') # store string and display
 
-p = 10
-q = 5
-r = add(p, q)
-print 'Add:' , r
-s = subtract(p, q)
-print 'Subtrsct:', s
+print type ('print')    # prints data types
+
+print(77)           # prints int value which have stored

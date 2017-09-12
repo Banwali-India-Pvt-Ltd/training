@@ -1,5 +1,4 @@
-print type(4)
-print type('4')
-print type(4 + 7)
-print type('4' + '7')
-print type(int('3') + int(4))
+# The program prints a string with embeded backslashes
+
+filename = 'C:\\Users\\rick'    # define string with embedded backslashes
+print(filename)               # display file name where string stored
