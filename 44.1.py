@@ -1,10 +1,8 @@
-value1 = eval(input('please enter a number :'))
-value2 = eval(input('please enter another number:'))
-sum = value1 + value2
-print (value1, '*', value2, '=, sum')
+# The program gets a number from user
+# The program divided by 2 and cut it in half
 
+value = eval(raw_input('Please enter a number to cut in half:'))
 
+# get input and print the result
 
-
-
-
+print(value/2)
