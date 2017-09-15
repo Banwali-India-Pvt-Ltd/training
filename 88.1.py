@@ -1,15 +1,6 @@
+# The program prints the sum of all the positive integers less than 100
 
-i = 3
-j = 5
-k = 7
-if i < j:
-    if j < k:
-        i = j
-    else:
-        j = k
-else:
-    if j > k:
-        j = i
-    else:
-        i = k
-        print ("i =", i, " j =", j, " k =", k)
+sum = 0   # Initialize sum
+for i in range(1,100):
+    sum += 2
+    print(sum)
