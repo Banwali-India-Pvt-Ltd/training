@@ -1,11 +1,11 @@
-def add(a ,b = 0):
-    return a+b
-print (add(1))
+# The program related to sqrt function
+from math import sqrt
 
+# Get the value from the user
+num = eval(raw_input("Enter number: "))
 
+# Compute the square root
+root = sqrt(num);
 
-def foo(i, a = ['kuldeep']):
-    a.append(i)
-    return a
-print(foo(1))
-print(foo(2))
+# Report result
+print("Square root of", num, "=", root)
