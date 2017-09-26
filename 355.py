@@ -1,10 +1,7 @@
-list =['while','loop','demo','with','break','and','continue']
-max = len(list)
-word = "break"
-i = 0
-while i < max:
-    print("Checking element:",i)
-    if word == list[i]:
-        print("Find it at position:", i)
-        break
-    i = i + 1
+x='aaaabbbcccdde'
+s=x.count('a')
+s1=x.count('b')
+s2=x.count('c')
+print 'a', s
+print 'b', s1
+print 'c', s2
