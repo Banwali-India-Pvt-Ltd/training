@@ -1,5 +1,3 @@
-values = ["carrot", "rat"]
-
-# Must use indexes or None.
-test = values["friend":"dog"]
-print(test)
+primes = [2, 3, 5, 7]
+for prime in primes:
+    print(prime)
