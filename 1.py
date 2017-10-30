@@ -1,3 +1,6 @@
-number = eval(input("please enter a number"))
-double_number = number * 2
-print (double_number)
+row = int(input("enter the number the the rows"))
+n = row
+while row >= 0:
+       x = "*" * n
+       pr
+       n
