@@ -1,0 +1,10 @@
+def KeyArg(int, float, str):
+    print("int :",int)
+    print("float :",float)
+    print("String :",str)
+print("Call1")
+KeyArg(int=10, float=1.5, str="H")
+print("Call2")
+KeyArg(float=2.8, int=20, str="G")
+print("Call3")
+KeyArg(str="R", float=8.6, int=5)
